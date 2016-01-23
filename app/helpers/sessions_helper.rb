@@ -4,11 +4,27 @@ module SessionsHelper
 		session[:user_id] = user.id
 	end
 
+	#redirects to stored location (or to the default) (for friendly forwarding)
+	def redirect_back_or(default)
+		redirect_to(session[:forwarding_url] || default)
+		session.delete(:forwarding_url)
+	end
+
+	# Stores the URL trying to be accessed (for friendly forwarding)
+	def store_location
+		session[:forwarding_url] = request.url if request.get?
+	end
+
 	#remembers a user in a persistent session
 	def remember(user)
 		user.remember
 		cookies.permanent.signed[:user_id] = user.id
 		cookies.permanent[:remember_token] = user.remember_token
+	end
+
+	#returns true if the given user is the current user (listing 9.24)
+	def current_user?(user)
+		user == current_user
 	end
 
 	#returns the user corresponding to teh remember token cookie ||= will assign to @current_user if currently empty
