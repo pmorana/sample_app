@@ -1,0 +1,95 @@
+[33mcommit 448f6ba1f5fe321f4e8842f4673f61afad81a746[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Fri Jan 22 19:58:45 2016 -0600
+
+    complete up to 10.14
+
+[33mcommit 5e44b4c05b3267a90744d73adca03d25e5adcf11[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Fri Jan 22 18:45:59 2016 -0600
+
+    Finish user edit, update, index, and destroy actions
+
+[33mcommit bb7dab42871f02d62b10d1e69d3090467fb9bc09[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Fri Jan 22 18:13:46 2016 -0600
+
+    Finish user index with pagination
+
+[33mcommit 589ada7679428f08889cbadf7699f7f02859eb2a[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Thu Jan 21 17:17:46 2016 -0600
+
+    Finish log in/log out
+
+[33mcommit c2d402fbb4fff24b84fe3f097c243a11a2747a46[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Wed Jan 20 20:03:49 2016 -0600
+
+    Use SSL and the Puma webserver in production
+
+[33mcommit f65bbd8548502e1bac581d3f901e7afe5d9e86be[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Wed Jan 20 19:57:12 2016 -0600
+
+    Finish user signup
+
+[33mcommit 9065ceab22bd94292c03752884f0210569f14212[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Tue Jan 19 22:48:30 2016 -0600
+
+    Complete and style signup form
+
+[33mcommit a58c6b76752745aedb748ff4f0de148c683eb197[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Tue Jan 19 21:51:07 2016 -0600
+
+    Make a basic User model (including secure passwords)
+
+[33mcommit 29e9f81accefa2151d45f0845ea08de3775abe77[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Mon Jan 18 17:40:22 2016 -0600
+
+    Finish ch5 ex
+
+[33mcommit 610651082cd395147b0cb2eac2d290c5ce576d54[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Mon Jan 18 17:24:03 2016 -0600
+
+    Finish layout and routes
+
+[33mcommit b46adf3ddc4fa345113f191520fa0d112a9ec204[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Sat Jan 16 13:44:22 2016 -0600
+
+    Cleaning up
+
+[33mcommit 4aa6a0e5982853d8f7788c9fbe9c15f13ee4018f[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Sat Jan 16 13:44:06 2016 -0600
+
+    Add a full_title helper
+
+[33mcommit f07f4c6d25fd3845edcac176e20d3f29fdfd2e31[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Fri Jan 15 17:08:25 2016 -0600
+
+    Finish static pages
+
+[33mcommit eafd9ab7cdbc28c77d9f993b84a31bde597a3742[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Fri Jan 15 16:35:21 2016 -0600
+
+    Add a Static Pages controller
+
+[33mcommit c97357ffc304181019f087989f8ecc47c5b9f5d1[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Fri Jan 15 16:25:41 2016 -0600
+
+    Improve the README
+
+[33mcommit f25662b67eae2f6ef28a19904e1d53c63c7d66e7[m
+Author: Paul Morana <pmorana@gmail.com>
+Date:   Fri Jan 15 16:07:29 2016 -0600
+
+    initialize repository
