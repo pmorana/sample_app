@@ -5,6 +5,7 @@ if Rails.env.production?
       :provider              => 'AWS',
       :aws_access_key_id     => ENV['AKIAJBZEBNNMV7GYWT4Q'],
       :aws_secret_access_key => ENV['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']
+      :region							 	 => ENV['us-west-2']
     }
     config.fog_directory     =  ENV['xlo250rails']
   end
