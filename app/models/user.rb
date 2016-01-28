@@ -70,6 +70,12 @@ class User < ActiveRecord::Base
 			reset_sent_at < 2.hours.ago
 		end
 
+		#defines a profo-feed.
+		#see "following users" for the full implentation
+		def feed
+			Micropost.where("user_id = ?", id)
+		end
+
 		
 		private
 			#converts email to all lower-case
